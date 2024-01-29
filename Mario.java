@@ -55,7 +55,7 @@ public class Mario extends Sprite{
             images = new BufferedImage[3];
             images[0] = View.loadImage("idelR.png");
             images[1] = View.loadImage("rightMove1.png");
-            images[2] = View.loadImage("rightMove2.png");
+            //images[2] = View.loadImage("rightMove2.png"); <- removed due to missing file 
         }
         stillIMG = View.loadImage("mario.png");
         backwardIMG = View.loadImage("Upward.png");
